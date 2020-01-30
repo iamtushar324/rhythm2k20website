@@ -15,17 +15,18 @@ menu_btn.onclick = () => {
         bar1.style.transform = "rotateZ(0deg)"
         bar3.style.transform = "rotateZ(0deg)"
         bar2.style.opacity = "1"
+        menu_list.style.boxShadow = ""
 
 
 
 
     }
     else {
-        menu_list.style.left = "60%"
+        menu_list.style.left = "50%"
         bar1.style.transform = "rotateZ(-45deg) scale(0.8)"
         bar3.style.transform = "rotateZ(45deg) scale(0.8)"
         bar2.style.opacity = "0"
-
+        menu_list.style.boxShadow = "5px 0px 100px black "
         is_menu_on = true
 
     }
