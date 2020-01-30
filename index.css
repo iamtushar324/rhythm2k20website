@@ -10,6 +10,7 @@ body{
 }
 
 #menu-btn{
+    margin-left: 90% ;
     height: 10vw;
     width: 10vw ; 
 
@@ -18,19 +19,19 @@ body{
 #btn-bar{
     border-radius: 2px;
     margin: 15% auto 10% auto;
-    height: 0.8vw;
+    height: 0.9vw;
     width: 90%;
     background-color: #66fcf1;
-    transition: 0.3s;
+    transition: transform 0.5s;
 
 }
-
+/* 
 #menu-btn:active #btn-bar    {
     margin: 10% auto 10% auto;
     transition-delay: 0.001s;
 
 
-}
+} */
 
 
 #intro-h{
@@ -81,3 +82,34 @@ body{
 }
 
 
+#menu-list {
+    position: fixed;
+    left: 100%;
+    background-color: darkcyan;
+    height: 1000px;
+    width: 40%;
+    transition: 0.5s;
+}
+
+#menu-item {
+    font-size: 1.4em;
+    margin: 10px;
+    background-color: darkolivegreen;
+    text-align: center;
+}
+
+.bar1 {
+    
+    transform-origin: right;
+    /* transform: rotateZ(-45deg); */
+}
+
+.bar2 {
+    transform-origin: right;
+    /* transform: translate(100px) */
+}
+
+.bar3 {
+    transform-origin: right;
+    /* transform: rotateZ(45deg); */
+}
