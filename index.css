@@ -10,6 +10,7 @@ body{
 }
 
 #menu-btn{
+    position: fixed;
     margin-left: 90% ;
     height: 10vw;
     width: 7vw ; 
@@ -86,16 +87,17 @@ body{
     position: fixed;
     top: 8vw;
     left: 100%;
-    background-color: darkcyan;
+    opacity: 1;
+    background-color: #1F2833;
     height: 1000px;
     width: 40%;
     transition: 0.5s;
 }
 
 #menu-item {
+    opacity: 1;
     font-size: 1.4em;
     margin: 10px;
-    background-color: darkolivegreen;
     text-align: center;
 }
 

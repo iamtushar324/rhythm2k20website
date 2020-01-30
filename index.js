@@ -22,8 +22,8 @@ menu_btn.onclick = () => {
     }
     else {
         menu_list.style.left = "60%"
-        bar1.style.transform = "rotateZ(-33deg)"
-        bar3.style.transform = "rotateZ(33deg)"
+        bar1.style.transform = "rotateZ(-45deg) scale(0.8)"
+        bar3.style.transform = "rotateZ(45deg) scale(0.8)"
         bar2.style.opacity = "0"
 
         is_menu_on = true
