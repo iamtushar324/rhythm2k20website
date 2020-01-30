@@ -1,0 +1,145 @@
+* {
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    scroll-behavior: smooth;
+}
+
+.events {
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.events_starting {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: red;
+    height: 45rem;
+}
+
+.events_starting h1 {
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    transform: translate(-50%, -38%);
+    font-size: 450%;
+}
+
+.events_starting h4 {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+    font-size: 150%;
+    letter-spacing: 1rem;
+}
+
+.events_list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.events_list_starting {
+    width: 80%;
+    height: auto;
+    text-align: center;
+    background-color: rgb(201, 131, 26);
+    padding-bottom: 10rem;
+}
+
+.fa-drum:before {
+    content: "\f569";
+}
+
+.events_list_list {
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.events_list_item {
+    flex: 30%;
+    max-width: 30%;
+    flex-wrap: wrap;
+    position: relative;
+    transition: 0.5s ease;
+}
+
+.events_list_list img {
+    width: 100%;
+    height: 15rem;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.events_list_item h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255, 0.8);
+    transition: 0.5s ease;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.events_list_item:hover h4 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease;
+    opacity: 1;
+}
+
+.events_list_item:hover img {
+    transform: scale(1.03);
+}
+
+#music {
+    margin-top: 8rem;
+}
+
+.events_info {
+    display: none;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    width: 50%;
+    height: 100%;
+    max-width: 50%;
+    z-index: -1;
+    background-color: yellow;
+}
+
+.iii {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow-y: scroll;
+    right: 0%;
+    top: 0%;
+}
+
+.other_events_back_button {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.other_events_back_button a {
+    outline: none;
+}
+
+.other_events_back_button button {
+    outline: none;
+    padding: .3rem 1.8rem;
+}

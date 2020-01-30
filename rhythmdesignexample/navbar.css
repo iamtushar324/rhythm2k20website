@@ -1,0 +1,51 @@
+/* /* .main_page_navbar {
+    width: 100%;
+    height: 100px;
+} */
+
+
+/* .main_page_navbar_logo { */
+
+
+/* position: absolute;
+    left: 2%; */
+
+
+/* font-size: 200%;
+    font-family: 'Akronim', cursive;
+    color: rgb(201, 131, 26); */
+
+
+/* } */
+
+
+/* .main_page_navbar_ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 8%;
+}
+
+.main_page_navbar_ul li {
+    padding: 1rem .9rem;
+}
+
+.main_page_navbar_ul a {
+    font-size: 1.05rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.main_page_navbar_ul a:hover {
+    border-bottom: 2px solid rgb(201, 131, 26);
+    transition: 1s ease;
+} */
+
+
+/* .nav_link {
+    color: white;
+} */
+
+
+/* */
