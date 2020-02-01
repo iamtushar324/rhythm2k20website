@@ -63,8 +63,17 @@ nav {
 #nav-img img {
     display: block;
     margin: auto 4vw auto 5vw;
-    height: 20px;
+    height: 25px;
     cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+
+}
+
+#nav-img:hover img {
+    transform: scale(1.05);
+    box-shadow: 0.1px 0.1px 5px#66fcf1;
+
 
 }
 
@@ -77,12 +86,18 @@ nav {
     cursor: pointer;
     letter-spacing: 2.5px;
     /* font-weight: bolder; */
+    transition: 0.2s;
 
 
 
 
 
 
+}
+
+#nav-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0.1px 0.1px 5px#66fcf1;
 }
 
 .nav-reg {

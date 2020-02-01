@@ -14,7 +14,7 @@ nav_btn.onclick = () => {
 
         bar1.style.transform = "rotateZ(0deg)"
         bar3.style.transform = "rotateZ(0deg)"
-        setTimeout(() => { bar2.style.opacity = "1" }, 300)
+        setTimeout(() => { bar2.style.opacity = "1" }, 150)
         nav_list.style.boxShadow = ""
 
 
