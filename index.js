@@ -31,3 +31,11 @@ nav_btn.onclick = () => {
     }
 
 }
+
+
+// for loading page
+let loadingPage = document.getElementById("loading")
+
+setTimeout(() => {
+    loadingPage.style.display = "none";
+}, 3000)

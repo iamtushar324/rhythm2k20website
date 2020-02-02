@@ -23,13 +23,33 @@ body {
     position: fixed;
     height: 100vh;
     width: 100%;
-    display: none;
+    z-index: 10;
+    text-align: center;
+    /* display: none; */
 
 }
 
-#loading h2 {
-    margin: 45vh auto auto auto;
+#loading-logo {
+    font-size: 3em;
+    margin-top: calc(50vh - 2em);
+    animation: loadinglogo 0.5s linear infinite alternate;
 }
+
+
+
+@keyframes loadinglogo {
+    from {
+        transform: scale(0.5);
+
+
+    }
+
+    to {
+        transform: scale(0.6)
+    }
+}
+
+
 
 
 
@@ -43,6 +63,7 @@ nav {
     padding: 0px;
     position: fixed;
     top: 0px;
+    z-index: 5;
     /* transform: translateY(-100px); */
     box-shadow: 1px 0px 10px black;
 
@@ -97,20 +118,55 @@ nav:hover {}
     color: white;
 }
 
-#nav-img svg {
+#nav-img-reg svg {
     display: block;
     margin: auto 0 auto 2vw;
     cursor: pointer;
     transition: 0.3s;
     border-radius: 0px;
-
+    transform: scale(1.05)
 }
 
-#nav-img:hover svg {
-    transform: scale(1.05);
+#nav-img-reg:hover svg {
+    transform: scale(1.15);
     fill: #9ffff9;
 
 }
+
+#nav-img-in svg {
+    display: block;
+    margin: auto 0 auto 2vw;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0px;
+    transform: scale(1.05)
+}
+
+#nav-img-in:hover svg {
+    transform: scale(1.15);
+    fill: #9ffff9;
+
+}
+
+#nav-img-profile svg {
+    display: block;
+    margin: auto 0 auto 2vw;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0px;
+    transform: scale(1.15)
+}
+
+#nav-img-profile:hover svg {
+    transform: scale(1.25);
+    fill: #9ffff9;
+
+}
+
+
+
+
+
 
 
 #nav-item {
