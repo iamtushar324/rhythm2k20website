@@ -248,6 +248,10 @@ svg {
     display: block;
 }
 
+.svg-three {
+    display: block;
+}
+
 #about {
     display: flex;
     flex-wrap: wrap;
