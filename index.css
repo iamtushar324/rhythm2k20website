@@ -1,7 +1,6 @@
 body {
     overflow-x: hidden;
     background-color: #C5C6C7;
-    color: white;
     font-family: monospace;
     padding: 0px;
     margin: 0px;
@@ -253,6 +252,7 @@ svg {
 }
 
 #about {
+    margin-top: -7vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -263,7 +263,8 @@ svg {
 #about h1 {
     font-size: 4em;
     font-family: cursive;
-    margin: 15px;
+    margin-bottom: 15px;
+
 }
 
 #about p {
@@ -346,6 +347,26 @@ svg {
         fill-up 15s infinite ease-out
 }
 
+#gallery-head {
+    color: #0B0C10;
+    text-align: center;
+    font-family: cursive;
+
+}
+
+
+
+#gallery {
+    font-size: 2em;
+    margin: -17vw auto 20px auto;
+    color: #0B0C10;
+    height: 100vh;
+}
+
+
+
+
+
 
 
 .footer {
@@ -358,7 +379,7 @@ svg {
 
 .body-svg {
     position: relative;
-    top: -20.8vw;
+    top: -15.5vw;
     /* overflow-y: hidden; */
 }
 
@@ -383,7 +404,7 @@ svg {
     #nav-list {
         display: flex;
         flex-direction: column;
-        height: calc(var(--vh, 1vh) * 100);
+        height: 60vh;
         background-color: #1F2833;
         justify-content: space-between;
         width: 50%;
