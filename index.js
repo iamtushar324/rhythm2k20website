@@ -62,6 +62,3 @@ $(".about")[0].onclick = () => {
 let vh = window.innerHeight * 1;
 document.documentElement.style.setProperty('--vh', '${vh}px');
 
-window.onscroll = () => {
-    console.log(pageYOffset)
-}
