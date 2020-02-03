@@ -40,6 +40,5 @@ introImg = new Image();
 introImg.src = './img/University/dcrust-7.jpg';
 introImg.onload = () => {
     loadingPage.style.display = "none";
-    console.log("loaded")
 
 }
