@@ -59,5 +59,9 @@ $(".about")[0].onclick = () => {
 
 // for chrome mobile version 
 
-let vh = window.innerHeight * 0.01;
+let vh = window.innerHeight * 1;
 document.documentElement.style.setProperty('--vh', '${vh}px');
+
+window.onscroll = () => {
+    console.log(pageYOffset)
+}
