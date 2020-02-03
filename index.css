@@ -7,11 +7,16 @@ body {
     margin: 0px;
 }
 
+html {
+    /* scroll-behavior: smooth; */
+}
+
 * {
     color: #C5C6C7;
     font-family: 'Josefin Sans', sans-serif;
     margin: 0px;
     padding: 0px;
+    /* scroll-behavior: smooth; */
 }
 
 
@@ -64,6 +69,7 @@ nav {
     position: fixed;
     top: 0px;
     z-index: 5;
+    border-bottom: solid 0.5px rgb(100, 100, 100);
     /* transform: translateY(-100px); */
     box-shadow: 1px 0px 10px black;
 
@@ -121,12 +127,13 @@ nav:hover {}
 }
 
 
-#nav-list a {
-    text-decoration: none;
+#nav-list li {
+    /* text-decoration: none; */
     color: white;
 }
 
 #nav-img-list {
+    margin-left: 20px;
     display: flex;
     flex-direction: row;
 }
@@ -185,7 +192,7 @@ nav:hover {}
 
 
 #nav-item {
-    border: solid 2px #66fcf1;
+    /* border: solid 2px #66fcf1; */
     margin-left: 2%;
     font-size: 1.3em;
     padding: 5px;
@@ -203,11 +210,13 @@ nav:hover {}
 
 #nav-item:hover {
     transform: scale(1.02);
-    box-shadow: 0.1px 0.1px 5px#66fcf1;
+    /* box-shadow: 0.1px 0.1px 5px#66fcf1; */
+    background-color: rgb(14, 19, 24);
 }
 
 .nav-reg {
     display: none;
+
 }
 
 .bar1 {
@@ -230,30 +239,47 @@ svg {
     fill: #66fcf1;
 }
 
+.svg-one {
+    margin: 0px;
+    display: block;
+}
+
+.svg-two {
+    background-color: #1F2833;
+    display: block;
+}
 
 #about {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-direction: row-reverse;
-
-
+    flex-direction: row;
     background-color: #1F2833;
+}
+
+#about h1 {
+    font-size: 4em;
+    font-family: cursive;
+}
+
+#about p {
+    font-size: 1.3em;
+
 }
 
 .about-left {
 
-    font-size: 1.6em;
     padding: 20px;
     text-align: center;
-    width: 60%;
-    border: solid 2px black;
+    width: 40%;
+    /* margin: -100px 10%; */
+    /* border: solid 2px black; */
 }
 
 .about-right {
     margin: auto 10px auto 10px;
     padding: 40px;
-    border: solid 2px black;
+    /* border: solid 2px black;s */
 }
 
 #about-img {
@@ -270,11 +296,7 @@ svg {
 
 
 
-footer {
-    margin-top: 300px;
-    height: 100vh;
 
-}
 
 
 .logo {
@@ -320,6 +342,22 @@ footer {
         fill-up 15s infinite ease-out
 }
 
+
+
+.footer {
+    width: 33.3%;
+    height: 100%;
+    background-color: #C5C6C7;
+}
+
+
+
+.body-svg {
+    position: relative;
+    top: -20.8vw;
+    /* overflow-y: hidden; */
+}
+
 /* For mobile  */
 
 
@@ -327,6 +365,11 @@ footer {
 
     * {
         overflow-x: hidden;
+    }
+
+    .body-svg {
+        /* overflow-y: hidden; */
+        /* background-attachment: fixed; */
     }
 
     #nav-list {
@@ -393,13 +436,14 @@ footer {
         padding: 20px;
         text-align: center;
         width: 90%;
-        border: solid 2px black;
+        /* border: solid 2px black; */
     }
 
     .about-right {
         margin: auto 10px auto 10px;
         padding: 10px;
-        border: solid 2px black;
+        display: none;
+        /* border: solid 2px black; */
     }
 
     #about-img {

@@ -42,3 +42,16 @@ introImg.onload = () => {
     loadingPage.style.display = "none";
 
 }
+
+
+$(".home")[0].onclick = () => {
+    window.location.href = "index.html"
+}
+
+$(".about")[0].onclick = () => {
+    // window.scroll(0, findPos($(".about")[0]))
+    // $("#about")[0].focus();
+    // EPPZScrollTo.scrollVerticalToElementById('about')
+    $("#about")[0].scrollIntoView(true);
+    window.scrollBy(0, -100);
+}
