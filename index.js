@@ -22,6 +22,7 @@ nav_btn.onclick = () => {
 
     }
     else {
+
         nav_list.style.left = "50%"
         bar1.style.transform = "rotateZ(-45deg) scale(0.8)"
         bar3.style.transform = "rotateZ(45deg) scale(0.8)"
@@ -55,3 +56,8 @@ $(".about")[0].onclick = () => {
     $("#about")[0].scrollIntoView(true);
     window.scrollBy(0, -100);
 }
+
+// for chrome mobile version 
+
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', '${vh}px');
