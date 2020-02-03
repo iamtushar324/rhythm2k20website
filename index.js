@@ -36,6 +36,10 @@ nav_btn.onclick = () => {
 // for loading page
 let loadingPage = document.getElementById("loading")
 
-setTimeout(() => {
+introImg = new Image();
+introImg.src = './img/University/dcrust-7.jpg';
+introImg.onload = () => {
     loadingPage.style.display = "none";
-}, 3000)
+    console.log("loaded")
+
+}
