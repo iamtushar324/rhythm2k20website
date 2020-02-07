@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    background-color: #C5C6C7;
+    background-color: #379683;
     font-family: monospace;
     padding: 0px;
     margin: 0px;
@@ -11,7 +11,7 @@ html {
 }
 
 * {
-    color: #C5C6C7;
+    color: #05386B;
     font-family: 'Josefin Sans', sans-serif;
     margin: 0px;
     padding: 0px;
@@ -23,7 +23,7 @@ html {
 #loading {
 
 
-    background-color: #1F2833;
+    background-color: #5CDB95;
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -61,7 +61,7 @@ html {
 nav {
     display: flex;
     justify-content: space-evenly;
-    background-color: #1F2833;
+    background-color: #5CDB95;
     width: 100%;
     height: 50px;
     padding: 0px;
@@ -101,7 +101,7 @@ nav:hover {}
     margin: 5px auto 5px auto;
     height: 4px;
     width: 100%;
-    background-color: #66fcf1;
+    background-color: #05386B;
     transition: transform 0.25s;
 
 }
@@ -127,7 +127,7 @@ nav:hover {}
 
 #nav-list li {
     /* text-decoration: none; */
-    color: white;
+    color: #05386B;
 }
 
 #nav-img-list {
@@ -149,7 +149,6 @@ nav:hover {}
 
 #nav-img-reg:hover svg {
     transform: scale(1.15);
-    fill: #9ffff9;
 
 }
 
@@ -164,7 +163,6 @@ nav:hover {}
 
 #nav-img-in:hover svg {
     transform: scale(1.15);
-    fill: #9ffff9;
 
 }
 
@@ -179,7 +177,6 @@ nav:hover {}
 
 #nav-img-profile:hover svg {
     transform: scale(1.25);
-    fill: #9ffff9;
 
 }
 
@@ -190,7 +187,7 @@ nav:hover {}
 
 
 #nav-item {
-    /* border: solid 2px #66fcf1; */
+    /* border: solid 2px #05386B; */
     margin-left: 2%;
     font-size: 1.3em;
     padding: 5px;
@@ -208,8 +205,8 @@ nav:hover {}
 
 #nav-item:hover {
     transform: scale(1.02);
-    /* box-shadow: 0.1px 0.1px 5px#66fcf1; */
-    background-color: rgb(14, 19, 24);
+    /* box-shadow: 0.1px 0.1px 5px#05386B; */
+    background-color: rgb(255, 255, 255);
 }
 
 .nav-reg {
@@ -237,7 +234,7 @@ nav:hover {}
     margin-top: 40px;
     min-height: 100%;
     min-width: 100%;
-    transform: translateY(-85px);
+    transform: translateY(-95px);
     position: absolute;
 }
 
@@ -261,15 +258,41 @@ nav:hover {}
 
 #intro-item h1 {
     font-size: 4em;
+    color: blanchedalmond;
+}
+
+#intro-item p {
+    color: blanchedalmond;
+
+}
+
+#reg-btn {
+    color: blanchedalmond;
+    margin: 40px auto 50px auto;
+    border: solid 2px white;
+    width: max-content;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#reg-btn:hover {
+    background-color: #5CDB95;
+    color: #05386B;
+}
+
+#reg-btn:active {
+    background-color: transparent;
+    color: white;
 }
 
 
-
-
+nav svg {
+    fill: #05386B;
+}
 
 
 #intro-item svg {
-    fill: #66fcf1;
+    fill: #05386B;
 }
 
 .svg-one {
@@ -278,7 +301,7 @@ nav:hover {}
 }
 
 .svg-two {
-    background-color: #1F2833;
+    background-color: #5CDB95;
     display: block;
 }
 
@@ -292,7 +315,7 @@ nav:hover {}
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: row;
-    background-color: #1F2833;
+    background-color: #5CDB95;
 }
 
 #about h1 {
@@ -407,7 +430,7 @@ nav:hover {}
 .footer {
     width: 33.3%;
     height: 100%;
-    background-color: #C5C6C7;
+    background-color: #05386B;
 }
 
 
@@ -440,7 +463,7 @@ nav:hover {}
         display: flex;
         flex-direction: column;
         height: 60vh;
-        background-color: #1F2833;
+        background-color: #5CDB95;
         justify-content: space-between;
         width: 50%;
         padding: 0px;
