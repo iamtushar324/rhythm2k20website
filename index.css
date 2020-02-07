@@ -242,8 +242,8 @@ nav:hover {}
     position: absolute;
     min-width: 100%;
     min-height: calc(100% + 70px);
-    background-color: #1F2833;
-    opacity: 0.9;
+    background-color: #379683;
+    opacity: 0.7;
 }
 
 #intro-item {
@@ -258,12 +258,11 @@ nav:hover {}
 
 #intro-item h1 {
     font-size: 4em;
-    color: blanchedalmond;
+    color: white;
 }
 
 #intro-item p {
-    color: blanchedalmond;
-
+    color: white
 }
 
 #reg-btn {
