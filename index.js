@@ -57,5 +57,21 @@ $(".about")[0].onclick = () => {
     window.scrollBy(0, -100);
 }
 
-// for chrome mobile version 
 
+
+let navBarToggle = document.getElementById("reg-btn")
+let navStatus = true
+
+navBarToggle.onclick = () => {
+
+    if (navStatus) {
+        $("nav")[0].style.transform = "translateY(-100px)";
+        navStatus = false;
+    }
+    else {
+        $("nav")[0].style.transform = "translateY(0)";
+        navStatus = true;
+    }
+}
+window.scrollTo("500px");
+console.log("f");
