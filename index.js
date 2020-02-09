@@ -77,5 +77,3 @@ navBarToggle.onclick = () => {
         navStatus = true;
     }
 }
-window.scrollTo("500px");
-console.log("f");

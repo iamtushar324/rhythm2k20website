@@ -442,6 +442,11 @@ nav svg {
     /* overflow-y: hidden; */
 }
 
+
+#intro-mobile {
+    display: none;
+}
+
 /* For mobile  */
 
 
@@ -458,6 +463,22 @@ nav svg {
     .body-svg {
         /* overflow-y: hidden; */
         /* background-attachment: fixed; */
+    }
+
+    #intro {
+        display: none;
+    }
+
+
+    #intro-mobile {
+        display: block;
+        height: calc(100vh + 24.5vw);
+    }
+
+    .body-svg {
+        position: relative;
+        top: -24.5vw;
+        /* overflow-y: hidden; */
     }
 
     #nav-list {
