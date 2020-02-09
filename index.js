@@ -34,15 +34,19 @@ nav_btn.onclick = () => {
 }
 
 
+
 // for loading page
 let loadingPage = document.getElementById("loading")
 
-introImg = new Image();
-introImg.src = './img/University/dcrust-7.jpg';
-introImg.onload = () => {
-    loadingPage.style.display = "none";
 
-}
+let video = $("#intro-video")[0]
+let b = setInterval(() => {
+    if (video.readyState === 4) {
+        loadingPage.style.display = "none";
+        clearInterval(b);
+
+    }
+}, 500);
 
 
 $(".home")[0].onclick = () => {

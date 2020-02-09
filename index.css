@@ -225,7 +225,7 @@ nav:hover {}
 
 #intro {
     background-color: #0B0C10;
-    background-image: url(./img/University/dcrust-7.jpg);
+    /* background-image: url(./img/University/dcrust-7.jpg); */
     background-size: 100% auto;
     background-repeat: no-repeat;
     height: 60vw;
