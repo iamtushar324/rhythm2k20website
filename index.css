@@ -709,16 +709,15 @@ h1 {
     #Layer_1 {
         height: auto;
         width: 100%;
-        transform: translateX(0) translateY(10vw);
         margin: 0px;
         padding: 0px;
-    }
 
-    #Layer_1 {
+
+
         position: relative;
         left: 0%;
         top: 50%;
-        transform: translateX(0%) translateY(-80%);
+        transform: translateX(0%) translateY(-50%);
 
     }
 
