@@ -716,8 +716,8 @@ h1 {
 
         position: relative;
         left: 0%;
-        top: 50%;
-        transform: translateX(0%) translateY(-50%);
+        top: 70px;
+        transform: translateX(0%) translateY(0vh);
 
     }
 
