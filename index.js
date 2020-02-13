@@ -34,19 +34,52 @@ nav_btn.onclick = () => {
 }
 
 
-
 // for loading page
 let loadingPage = document.getElementById("loading")
 
+introImg = new Image();
+introImg.src = './img/University/dcrust-7.jpg';
+introImg.onload = () => {
+    loadingPage.style.display = "none";
 
-let video = $("#intro-video")[0]
-let b = setInterval(() => {
-    if (video.readyState === 4) {
-        loadingPage.style.display = "none";
-        clearInterval(b);
+}
+
+let isVideoOn = false;
+$("#about-img")[0].onclick = () => {
+    if (!(isVideoOn)) {
+        $("#fest-video")[0].style.display = "block";
+        $("#fest-video-overlay")[0].style.display = "block";
+        isVideoOn = true;
+    }
+
+
+}
+
+
+$("#fest-video-overlay")[0].onclick = () => {
+    if (isVideoOn) {
+        $("#fest-video")[0].style.display = "none";
+        isVideoOn = false;
+        $("#fest-video-overlay")[0].style.display = "none";
+
+        $("#fest-video").stopVideo();
 
     }
-}, 500);
+
+    else { }
+
+    $("#fest-video-overlay")[0].style.display = "none";
+
+    $('#full-img')[0].style.display = "none"
+
+
+
+
+}
+
+
+
+
 
 
 $(".home")[0].onclick = () => {
@@ -61,19 +94,14 @@ $(".about")[0].onclick = () => {
     window.scrollBy(0, -100);
 }
 
+function onimgclick(aa) {
+
+    $('#full-img')[0].src = $(`.img_${aa}`)[0].src
+    $('#full-img')[0].style.display = "block"
+    $('#fest-video-overlay')[0].style.display = "block"
 
 
-let navBarToggle = document.getElementById("reg-btn")
-let navStatus = true
 
-navBarToggle.onclick = () => {
 
-    if (navStatus) {
-        $("nav")[0].style.transform = "translateY(-100px)";
-        navStatus = false;
-    }
-    else {
-        $("nav")[0].style.transform = "translateY(0)";
-        navStatus = true;
-    }
 }
+
