@@ -44,6 +44,10 @@ introImg.onload = () => {
 
 }
 
+
+
+// fest video for screen
+
 let isVideoOn = false;
 $("#about-img")[0].onclick = () => {
     if (!(isVideoOn)) {
@@ -81,7 +85,7 @@ $("#fest-video-overlay")[0].onclick = () => {
 
 
 
-
+// nav bar 
 $(".home")[0].onclick = () => {
     window.location.href = "index.html"
 }
@@ -94,6 +98,8 @@ $(".about")[0].onclick = () => {
     window.scrollBy(0, -100);
 }
 
+
+// for gallery 
 function onimgclick(aa) {
 
     $('#full-img')[0].src = $(`.img_${aa}`)[0].src

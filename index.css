@@ -1,9 +1,28 @@
-#body {
+body {
     overflow-x: hidden;
-    background-color: #C5C6C7;
     font-family: monospace;
     padding: 0px;
     margin: 0px;
+
+    background: linear-gradient(-45deg, #1F2833,
+            #C5C6C7,
+            #45A29E, #66FCF1);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    30% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 html {
@@ -16,13 +35,9 @@ html {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    /* scroll-behavior: smooth; */
 }
 
-#intro-btn {
-    /* display: none; */
 
-}
 
 #Layer_1 {
     height: 32vw;
@@ -30,7 +45,8 @@ html {
     position: relative;
     left: 50%;
     transform: translateX(-50%) translateY(1.9vw);
-
+    opacity: 1;
+    z-index: 2;
 }
 
 
@@ -244,7 +260,44 @@ nav:hover {}
     background-size: 100% auto;
     background-repeat: no-repeat;
     height: 60vw;
+    opacity: 0.8;
+}
 
+#intro-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 150%;
+    width: 150%;
+    background-color: #1F2833;
+    opacity: 0.2;
+
+}
+
+#int-btn {
+    z-index: 2;
+    display: inline;
+    border: solid 2px white;
+    width: 130px;
+    color: white;
+    background-color: #45A29E;
+    padding: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(280%);
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(24,
+24,
+24);
+}
+
+#int-btn:hover {
+    background-color: rgb(56, 139, 135);
+}
+
+#int-btn:active {
+    background-color: transparent;
 }
 
 #intro video {}
@@ -445,12 +498,7 @@ svg text {
     box-sizing: border-box;
 }
 
-body,
-html {
-    padding: 0;
-    margin: 0;
-    background: #f4f4f4;
-}
+
 
 h1 {
     font-family: 'Open Sans', sans-serif;
