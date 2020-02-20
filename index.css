@@ -127,7 +127,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     background-color: #1F2833;
-    width: 100vw;
+    width: 100px;
     height: 50px;
     padding: 0px;
     position: fixed;
@@ -607,7 +607,7 @@ h1 {
     }
 
     .body-svg {
-        top: -58vw;
+        top: -59vw;
 
     }
 
