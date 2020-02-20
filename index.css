@@ -3,12 +3,11 @@ body {
     font-family: monospace;
     padding: 0px;
     margin: 0px;
-
-    background: linear-gradient(-45deg, #1F2833,
-            #C5C6C7,
-            #45A29E, #66FCF1);
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
+/* background: linear-gradient(-45deg, #1F2833,
+    #C5C6C7,
+    #45A29E, #66FCF1);
+background-size: 400% 400%;
+animation: gradient 10s ease infinite; */
 }
 
 @keyframes gradient {
