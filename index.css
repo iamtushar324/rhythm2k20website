@@ -3,11 +3,12 @@ body {
     font-family: monospace;
     padding: 0px;
     margin: 0px;
-/* background: linear-gradient(-45deg, #1F2833,
-    #C5C6C7,
-    #45A29E, #66FCF1);
-background-size: 400% 400%;
-animation: gradient 10s ease infinite; */
+    /* 
+    background: linear-gradient(-45deg, #1F2833,
+            #C5C6C7,
+            #45A29E, #66FCF1);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite; */
 }
 
 @keyframes gradient {
@@ -708,10 +709,11 @@ h1 {
         color: white;
         background-color: #45A29E;
         padding: 12px;
+
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translateX(-50%) translateY(200%);
+        transform: translateX(-50%) translateY(150%);
         cursor: pointer;
     }
 
@@ -728,7 +730,7 @@ h1 {
         background-image: none;
         background-size: 100% auto;
         background-repeat: no-repeat;
-        height: 110vh;
+        height: 100vh;
 
     }
 
@@ -755,7 +757,7 @@ h1 {
 
     #Layer_1 {
         height: auto;
-        width: 400px;
+        width: 100%;
         margin: 0px;
         padding: 0px;
         margin-top: 40px;
@@ -822,6 +824,10 @@ h1 {
         transform: translateX(-25vw) translateY(1vw);
 
 
+    }
+
+    * {
+        overflow-x: hidden;
     }
 
     /* #menu-btn {
