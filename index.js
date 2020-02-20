@@ -5,7 +5,7 @@ let bar2 = document.getElementsByClassName('bar2')[0]
 let bar3 = document.getElementsByClassName('bar3')[0]
 
 
-alert("hello")
+
 
 let is_nav_on = false
 
