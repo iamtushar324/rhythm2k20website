@@ -127,7 +127,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     background-color: #1F2833;
-    width: 100%;
+    width: 100vw;
     height: 50px;
     padding: 0px;
     position: fixed;
@@ -288,8 +288,8 @@ nav:hover {}
     transform: translateX(-50%) translateY(280%);
     cursor: pointer;
     box-shadow: 20px 20px 30px rgb(24,
-24,
-24);
+            24,
+            24);
 }
 
 #int-btn:hover {
@@ -729,7 +729,7 @@ h1 {
         background-image: none;
         background-size: 100% auto;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 110vh;
 
     }
 
@@ -756,16 +756,17 @@ h1 {
 
     #Layer_1 {
         height: auto;
-        width: 100%;
+        width: 400px;
         margin: 0px;
         padding: 0px;
+        margin-top: 40px;
 
 
 
-        position: relative;
-        left: 0%;
-        top: 70px;
-        transform: translateX(0%) translateY(0vh);
+        /* position: relative; */
+        /* left: 50vw; */
+        /* top: 70px; */
+        /* transform: translateY(20vh); */
 
     }
 
@@ -775,7 +776,7 @@ h1 {
 
 
 
-    body {
+    #body {
         background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
         background-size: 400% 400%;
         animation: gradient 10s ease infinite;
@@ -825,12 +826,11 @@ h1 {
     }
 
     /* #menu-btn {
-    /* transform: translateX(10vw); */
+    transform: translateX(10vw);
     position: fixed;
     top: 8px;
     right: 0px;
-}
+} */
 
-*/
 
 }
