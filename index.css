@@ -824,12 +824,13 @@ h1 {
 
     }
 
-    #menu-btn {
-        /* transform: translateX(10vw); */
-        position: fixed;
-        top: 8px;
-        right: 0px;
-    }
+    /* #menu-btn {
+    /* transform: translateX(10vw); */
+    position: fixed;
+    top: 8px;
+    right: 0px;
+}
 
+*/
 
 }
