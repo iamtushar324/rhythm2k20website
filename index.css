@@ -1,11 +1,6 @@
 #fest-video-mob {
-    border: solid 2px white;
-    padding: 10px;
-    margin: 30px;
-    background-color: #45A29E;
-    color: white;
-    box-shadow: 1px 1px 5px white;
-    /* display: none; */
+
+    display: none;
 }
 
 
@@ -286,7 +281,8 @@ nav:hover {}
 
 #int-btn {
     z-index: 2;
-    display: inline;
+    display: block;
+    margin: 20px auto 0px auto;
     border: solid 2px white;
     width: 130px;
     color: white;
@@ -337,7 +333,7 @@ svg text {
 }
 
 #about {
-    margin-top: -7vw;
+    margin-top: 0vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -440,7 +436,7 @@ svg text {
     color: #0B0C10;
     text-align: center;
     font-family: cursive;
-    transform: translateY(-52vw);
+    transform: translateY(-22vw);
     font-size: 4em;
 
 }
@@ -449,7 +445,7 @@ svg text {
 
 #gallery {
     font-size: 2em;
-    margin: -17vw auto 20px auto;
+    margin: 10vw auto 20px auto;
     color: #0B0C10;
     height: auto;
     transform: translateY(-30vw);
@@ -488,7 +484,7 @@ svg text {
 
 .body-svg {
     position: relative;
-    top: -53vw;
+    top: -16vw;
     /* overflow-y: hidden; */
 }
 
@@ -617,7 +613,7 @@ h1 {
     }
 
     .body-svg {
-        top: -62vw;
+        top: -30vw;
 
     }
 
@@ -811,7 +807,15 @@ h1 {
         }
     }
 
-
+    #fest-video-mob {
+        border: solid 2px white;
+        padding: 10px;
+        margin: 30px;
+        background-color: #45A29E;
+        color: white;
+        box-shadow: 1px 1px 5px white;
+        display: block;
+    }
 
 
 
