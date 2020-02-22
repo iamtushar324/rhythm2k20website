@@ -49,3 +49,12 @@ introImg.onload = () => {
     eventh.style.transform = "translateY(-50px) scale(2)"
 
 }
+
+
+
+
+// event rolling btn 
+
+function rollEvent(v) {
+    document.getElementsByClassName('1')[0].style.transform = "rotateY(180deg)"
+}

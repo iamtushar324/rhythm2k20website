@@ -782,6 +782,7 @@ h1 {
 
     #gallery img {
         height: 100px;
+        overflow: hidden;
     }
 
 
