@@ -113,3 +113,6 @@ function onimgclick(aa) {
 
 }
 
+function eventPage() {
+    window.location.href = './events.html';
+}
