@@ -116,3 +116,10 @@ function onimgclick(aa) {
 function eventPage() {
     window.location.href = './events.html';
 }
+
+function logIn() {
+    window.location.href = './login.html';
+}
+
+
+
