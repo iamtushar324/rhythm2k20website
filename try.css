@@ -5,11 +5,13 @@
   input[type=submit] {
     width: 50%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 5px auto 5px auto;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 50px;
     box-sizing: border-box;
+    display: block;
+
 
   }
 
@@ -23,8 +25,13 @@
     color: #66FCF1;
   }
 
+  #usr {
+    display: block;
+    margin: 20px auto 20px auto;
+  }
 
-  @media(min-width : 800px) {
+
+  @media(max-width : 800px) {
 
     .bb,
     .bb::before,
@@ -81,15 +88,48 @@
     }
   }
 
-  @media(min-width:50) {
+  /* @media(min-width:50) {
+  .bb {
+    max-width: 600px;
+    height: 600px;
+    margin: auto;
+    padding: 50px;
+    font-size: 1.5 em;
+    color: #66FCF1;
+
+  }
+
+} */
+
+  @media screen and (max-width : 577px) {
+    #hd {
+      margin-top: 20px;
+      font-size: 1em;
+    }
+
     .bb {
-      max-width: 600px;
-      height: 600px;
-      margin: auto;
-      padding: 50px;
-      font-size: 1.5 em;
-      color: #66FCF1;
+      background-color: #1F2833;
+      height: 100%;
+      width: 100%;
+      opacity: 0.7;
+    }
+
+    input[type=text],
+    input[type=password],
+    input[type=number],
+    input[type=email],
+    input[type=submit] {
+      width: 50%;
+      padding: 12px 20px;
+      margin: 2px auto 2px auto;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 50px;
+      box-sizing: border-box;
+      display: block;
+
 
     }
+
 
   }
