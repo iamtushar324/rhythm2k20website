@@ -16,6 +16,8 @@ html {
 
 
 
+
+
 #loading {
 
 
@@ -255,8 +257,8 @@ nav:hover {}
     height: 40vh;
     width: 100%;
     text-align: center;
-
-
+    overflow: hidden;
+    border: solid 2px black;
 }
 
 #heading h1 {
@@ -277,6 +279,33 @@ nav:hover {}
     justify-content: space-around;
 
 
+}
+
+
+#events_con {
+    overflow-x: hidden;
+    font-family: monospace;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(-45deg, #1F2833,
+            #C5C6C7,
+            #45A29E, #66FCF1);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    30% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .card {
@@ -304,16 +333,12 @@ nav:hover {}
     transition: transform 1s;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0px 2px 14px black;
 
     /* margin: 20px auto 20px auto; */
 }
 
-.back h1,
-p,
-div {
-    margin: 10px;
 
-}
 
 #regBtn {
     border: solid 1px white;
@@ -336,6 +361,8 @@ div {
 .back {
     transform: rotateY(180deg);
     background-color: #1F2833;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .card:hover .front {
@@ -345,6 +372,18 @@ div {
 .card:hover .back {
     transform: rotateY(360deg)
 }
+
+
+
+#events_con {
+    background-color: #C5C6C7;
+}
+
+
+
+
+
+
 
 
 @media screen and (max-width : 737px) {

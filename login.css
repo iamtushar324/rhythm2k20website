@@ -1689,10 +1689,10 @@ body {
   height: auto;
   border-radius: 3px;
   color: #66FCF1;
-  border: 2px solid;
-  box-shadow: 3px 3px 100px #66FCF1;
+  box-shadow: 3px 3px 40px #45A29E;
   background-color: rgb(31, 58, 77);
   padding: 50px;
+  border-radius: 20px;
 }
 
 #head {

@@ -36,6 +36,26 @@ nav_btn.onclick = () => {
 }
 
 
+//nav links 
+
+function goHome() {
+    window.location.href = "index.html"
+
+}
+function goEvents() {
+    window.location.href = "events.html"
+
+}
+function goAbout() {
+    window.address.href = "www.github.com/iamtushar324"
+
+}
+function goTeam() {
+    window.location.href = "index.html"
+
+}
+
+
 // event heading animation 
 
 let eventh = document.getElementById('eventh')
@@ -58,3 +78,6 @@ introImg.onload = () => {
 function rollEvent(v) {
     document.getElementsByClassName('1')[0].style.transform = "rotateY(180deg)"
 }
+
+
+
