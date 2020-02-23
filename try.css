@@ -1,0 +1,95 @@
+  input[type=text],
+  input[type=password],
+  input[type=number],
+  input[type=email],
+  input[type=submit] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+
+  }
+
+  .sbt:hover {
+    background-color: #66FCF1;
+  }
+
+  #hd {
+    text-align: center;
+    font-size: 2em;
+    color: #66FCF1;
+  }
+
+
+  @media(min-width : 800px) {
+
+    .bb,
+    .bb::before,
+    .bb::after {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .bb {
+      max-width: 600px;
+      height: 600px;
+      margin: auto;
+      font-size: 2em;
+      color: #66FCF1;
+
+
+    }
+
+    .bb::before,
+    .bb::after {
+      content: '';
+      z-index: -1;
+      margin: -5%;
+      box-shadow: inset 0 0 0 2px;
+      animation: clipMe 8s linear infinite;
+    }
+
+    .bb::before {
+      animation-delay: -4s;
+    }
+
+
+    @keyframes clipMe {
+
+      0%,
+      100% {
+        clip: rect(0px, 660px, 6px, 0px);
+      }
+
+      25% {
+        clip: rect(0px, 6px, 660px, 0px);
+      }
+
+      50% {
+        clip: rect(654px, 660px, 660px, 0px);
+      }
+
+      75% {
+        clip: rect(0px, 660px, 660px, 654px);
+      }
+    }
+  }
+
+  @media(min-width:50) {
+    .bb {
+      max-width: 600px;
+      height: 600px;
+      margin: auto;
+      padding: 50px;
+      font-size: 1.5 em;
+      color: #66FCF1;
+
+    }
+
+  }
