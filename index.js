@@ -121,5 +121,9 @@ function logIn() {
     window.location.href = './login.html';
 }
 
+function regPage(){
+    window.location.href = './regis.html';
+}
+
 
 
