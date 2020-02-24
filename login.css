@@ -7,6 +7,7 @@ body {
   background: url(./img/University/dcrust-7.jpg);
   background-size: cover;
   background-color: #0B0C10;
+  overflow: hidden;
 
   background-repeat: no-repeat;
   padding: 40px;
@@ -1703,7 +1704,7 @@ body {
   background-color: rgb(31, 58, 77);
   padding: 50px;
   border-radius: 20px;
-  opacity: 0.95;
+  opacity: 0.85;
 }
 
 #head {
@@ -1731,6 +1732,21 @@ input[type=password] {
 
 }
 
+input[type=text]:focus,
+input[type=password]:focus {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  box-sizing: border-box;
+  outline: none;
+
+
+
+}
+
 
 button {
   font-size: 0.4em;
@@ -1744,6 +1760,10 @@ button {
   color: black;
   text-align: center;
   border-radius: 20px;
+}
+
+button:focus {
+  outline: none;
 }
 
 button:hover {

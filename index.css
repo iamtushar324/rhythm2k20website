@@ -42,6 +42,10 @@ html {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 
 #Layer_1 {
@@ -214,6 +218,7 @@ nav:hover {}
     cursor: pointer;
     letter-spacing: 2.5px;
     transition: 0.1s;
+    color: white;
 
 
 }
@@ -281,6 +286,7 @@ nav:hover {}
 
 #int-btn {
     z-index: 2;
+    position: relative;
     display: block;
     margin: 20px auto 0px auto;
     border: solid 2px white;
@@ -324,7 +330,7 @@ svg text {
 
 .svg-two {
     background-color: transparent;
-    transform: rotateZ(180deg);
+    transform: rotateZ(180deg) translateY(3px);
     display: block;
 }
 
@@ -454,6 +460,8 @@ svg text {
     justify-content: center;
     margin-left: 6vw;
     margin-right: 6vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 
@@ -857,4 +865,21 @@ h1 {
 } */
 
 
+}
+
+
+
+
+
+
+/* footer css */
+
+
+.site-footer {
+    background-color: #1F2833;
+    padding: 20px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+    text-align: center;
 }

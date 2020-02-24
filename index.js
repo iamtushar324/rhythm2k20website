@@ -88,9 +88,7 @@ $("#fest-video-overlay")[0].onclick = () => {
 
 
 // nav bar 
-$(".home")[0].onclick = () => {
-    window.location.href = "index.html"
-}
+
 
 $(".about")[0].onclick = () => {
     // window.scroll(0, findPos($(".about")[0]))
@@ -112,18 +110,4 @@ function onimgclick(aa) {
 
 
 }
-
-function eventPage() {
-    window.location.href = './events.html';
-}
-
-function logIn() {
-    window.location.href = './login.html';
-}
-
-function regPage(){
-    window.location.href = './regis.html';
-}
-
-
 
