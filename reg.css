@@ -90,6 +90,16 @@ a:hover {
   transition: .5s ease;
 }
 
+#tab_left {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+#tab_right {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
 .tab-group li a:hover {
   background: #45A29E;
   color: #ffffff;
@@ -114,7 +124,7 @@ h1 {
 label {
   position: absolute;
   -webkit-transform: translateY(6px);
-  transform: translateY(6px) scale(0.7);
+  transform: translateY(9px) scale(0.7);
   left: 13px;
   color: rgba(255, 255, 255, 0.5);
   -webkit-transition: all 0.25s ease;
@@ -122,6 +132,30 @@ label {
   -webkit-backface-visibility: hidden;
   pointer-events: none;
   font-size: 22px;
+}
+
+#roll_lab {
+  transform: translateY(9px) scale(0.7) translateX(-8px);
+}
+
+#pass_lab {
+  transform: translateY(9px) scale(0.7) translateX(-8px);
+
+}
+
+#conPass_lab {
+  transform: translateY(9px) scale(0.7) translateX(-27px);
+
+}
+
+#ph_num_lab {
+  transform: translateY(9px) scale(0.7) translateX(-22px);
+
+}
+
+#fname_lab {
+  transform: translateY(9px) scale(0.7) translateX(-12px);
+
 }
 
 label .req {
@@ -156,14 +190,17 @@ select {
   background-image: none;
   border: 1px solid #a0b3b0;
   color: #ffffff;
-  border-radius: 0;
+  border-radius: 20px;
   -webkit-transition: border-color .25s ease, box-shadow .25s ease;
   transition: border-color .25s ease, box-shadow .25s ease;
 }
 
 select {
+
   color: rgba(255, 255, 255, 0.5);
   background-color: #1F2833;
+  font-size: 1em;
+  padding-left: 20px;
 }
 
 input:focus,
@@ -213,6 +250,7 @@ textarea {
   transition: all 0.5s ease;
   -webkit-appearance: none;
   text-align: center;
+  border-radius: 30px;
 }
 
 /* .button:hover,

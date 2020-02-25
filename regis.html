@@ -15,8 +15,8 @@
   <div class="form">
 
     <ul class="tab-group">
-      <li class="tab active"><a href="#signup">Personal Details</a></li>
-      <li class="tab"><a href="#login">College Details</a></li>
+      <li class="tab active"><a id="tab_left" href="#signup">Personal Details</a></li>
+      <li class="tab"><a id="tab_right" href="#login">College Details</a></li>
     </ul>
 
     <div class="tab-content">
@@ -27,7 +27,7 @@
 
           <div class="top-row">
             <div class="field-wrap">
-              <label>
+              <label id="fname_lab">
                 First Name<span class="req">*</span>
               </label>
               <input type="text" name="Name" required autocomplete="off" />
@@ -41,27 +41,29 @@
             </div>
           </div>
 
+
+
           <div class="field-wrap">
             <label>
-              Email Address<span class="req">*</span>
+              Email <span class="req">*</span>
             </label>
             <input type="email" name="email" required autocomplete="off" />
           </div>
 
           <div class="field-wrap">
-            <label>
-              Set A Password<span class="req">*</span>
+            <label id="pass_lab">
+              Password<span class="req">*</span>
             </label>
-            <input type="password" required autocomplete="off" />
+            <input id="pass" type="password" required autocomplete="off" />
             <br>
             <br>
-            <label>
+            <label id="conPass_lab">
               Confirm Password<span class="req">*</span>
             </label>
-            <input type="password" required autocomplete="off" />
+            <input id="conPass" type="password" required autocomplete="off" />
             <br>
             <br>
-            <label>
+            <label id="ph_num_lab">
               Phone Number<span class="req">*</span>
             </label>
             <input type="number" required autocomplete="off" />
@@ -81,7 +83,7 @@
 
 
         <div class="field-wrap">
-          <label>
+          <label id="roll_lab">
             Roll Number<span class="req">*</span>
           </label>
           <input type="number" required autocomplete="off" />
@@ -107,7 +109,7 @@
           </select>
         </div>
 
-        <button class="button button-block" />submit</button>
+        <button id="submit_btn" class="button button-block" />submit</button>
 
         </form>
 
