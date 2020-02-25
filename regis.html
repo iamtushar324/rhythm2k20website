@@ -23,17 +23,21 @@
       <div id="signup">
 
 
-        <form action="/" method="post">
+        <form action="/" method="GET">
 
           <div class="top-row">
             <div class="field-wrap">
-
-              <input type="text" placeholder="First Name*" required autocomplete="off" />
+              <label>
+                First Name<span class="req">*</span>
+              </label>
+              <input type="text" name="Name" required autocomplete="off" />
             </div>
 
             <div class="field-wrap">
-
-              <input type="text" placeholder="Last Name*" required autocomplete="off" />
+              <label>
+                Last Name
+              </label>
+              <input type="text" name="lastn" autocomplete="off" />
             </div>
           </div>
 
@@ -41,7 +45,7 @@
             <label>
               Email Address<span class="req">*</span>
             </label>
-            <input type="email" required autocomplete="off" />
+            <input type="email" name="email" required autocomplete="off" />
           </div>
 
           <div class="field-wrap">
@@ -51,10 +55,16 @@
             <input type="password" required autocomplete="off" />
             <br>
             <br>
-            <input type="password" placeholder="Confirm Password*" required autocomplete="off" />
+            <label>
+              Confirm Password<span class="req">*</span>
+            </label>
+            <input type="password" required autocomplete="off" />
             <br>
             <br>
-            <input type="text" placeholder="Phone Number*" required autocomplete="off" />
+            <label>
+              Phone Number<span class="req">*</span>
+            </label>
+            <input type="number" required autocomplete="off" />
 
           </div>
 
@@ -71,19 +81,31 @@
 
 
         <div class="field-wrap">
-
-          <input type="number" placeholder="Roll No.*" required autocomplete="off" />
+          <label>
+            Roll Number<span class="req">*</span>
+          </label>
+          <input type="number" required autocomplete="off" />
           <br>
           <br>
-          <input type="text" placeholder="Course*" required autocomplete="off" />
+          <label>
+            Course <span class="req">*</span>
+          </label>
+          <input type="text" required autocomplete="off" />
 
         </div>
 
-        <div class="field-wrap">
+        <div class="field-wrap" id="yearofst">
 
-          <input type="number" placeholder="Year Of Studying*" required autocomplete="off" />
+          <!-- <input type="number" placeholder="Year Of Studying*" required autocomplete="off" /> -->
+
+          <select name="year" id="yearin" select">
+            <option value="1st" default>Year of Studying</option>
+            <option value="1st">1st Year</option>
+            <option value="2st">2st Year</option>
+            <option value="3st">3st Year</option>
+            <option value="4st">4st Year</option>
+          </select>
         </div>
-
 
         <button class="button button-block" />submit</button>
 
