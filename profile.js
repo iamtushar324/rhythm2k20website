@@ -74,7 +74,24 @@ window.onload = () => {
 
 //************************ */
 
+let topCon = document.getElementsByClassName('top_con')[0];
+let isBig = true;
+let topBot = document.getElementsByClassName('top_bottom')[0];
+
+$('.more_btn').on('click', () => {
+
+    if (isBig) {
+        topCon.style.height = "50vh";
+        isBig = false;
+        topBot.style.display = 'none'
+
+    }
+
+    else {
+        topCon.style.height = "100vh";
+        isBig = true;
+        topBot.style.display = 'block'
 
 
-
-
+    }
+})
