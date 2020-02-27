@@ -63,10 +63,10 @@ let eventh = document.getElementById('eventh')
 let loadingPage = document.getElementById("loading")
 
 introImg = new Image();
-introImg.src = './img/University/dcrust-7.jpg';
+introImg.src = "./img/events_img/music.jpeg";
 introImg.onload = () => {
     loadingPage.style.display = "none";
-    // eventh.style.transform = "translateY(-50px) scale(2)"
+    eventh.style.transform = "translateY(0px) scale(1)"
 
 }
 

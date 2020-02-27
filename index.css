@@ -1,5 +1,4 @@
 #fest-video-mob {
-
     display: none;
 }
 
@@ -309,7 +308,7 @@ nav:hover {}
 }
 
 #int-btn:active {
-    background-color: transparent;
+    background-color: rgb(30, 75, 72);
 }
 
 #intro video {}
