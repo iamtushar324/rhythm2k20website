@@ -66,7 +66,7 @@ introImg = new Image();
 introImg.src = './img/University/dcrust-7.jpg';
 introImg.onload = () => {
     loadingPage.style.display = "none";
-    eventh.style.transform = "translateY(-50px) scale(2)"
+    // eventh.style.transform = "translateY(-50px) scale(2)"
 
 }
 
